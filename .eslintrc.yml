@@ -2,6 +2,7 @@ env:
   browser: true
   es2021: true
 extends: airbnb-base
+plugins: [jest]
 overrides: []
 parserOptions:
   ecmaVersion: latest
