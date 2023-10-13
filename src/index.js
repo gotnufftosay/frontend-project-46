@@ -1,4 +1,3 @@
-import _ from 'lodash';
 import fileParser from './parser.js';
 import buildAST from './buildAST.js';
 import formatter from './formatters/index.js';

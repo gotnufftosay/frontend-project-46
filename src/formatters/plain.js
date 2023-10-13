@@ -34,13 +34,13 @@ function makePlainDiff(tree) {
     }
   });
   return iter(tree.children, []);
-};
+}
 
 const makePlain = (tree) => {
   const result = makePlainDiff(tree);
   return _.flattenDeep(result)
-      .filter((el) => el)
-      .join('\n');
+    .filter((el) => el)
+    .join('\n');
 };
 
 export default makePlain;
